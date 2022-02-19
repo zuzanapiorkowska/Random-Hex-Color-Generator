@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+:root {
+  --white: #fff;
+  --black: #1c2b2d;
+  --blue: #31326f;
+  --light-blue: #005490;
+  --color-primary: #9d0191;
+  --color-sec: #db6400;
+  --grey: #eee;
+  --dark-grey: #222831;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.counter-div {
+  width: 60rem;
+  border: 2px solid rgb(152, 200, 255);
+  margin: 0 auto;
+  padding:2%;
+  background-color: #3281ca;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.result {
+  font-size: 8rem;
+  text-shadow: 2px 2px black;
+}
+
+hr {
+  margin: 1rem 0;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+.color {
+background-color:#3281ca;
+border: 2px solid white;
+
+}
+
+
+.buttons button {
+  padding: 2rem;
+  margin: 1rem 1rem;
+  border-radius: 10px;
+  color: white;
+  outline: none;
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
